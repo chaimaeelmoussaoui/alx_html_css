@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   }
+   
+   header,
+   footer {
+    flex: none;
+   }
+   
+   main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    overflow-y: auto;
+   }
+   
+   article {
+    flex: 2;
+    overflow-y: auto;
+   }
+   
+   aside {
+    flex: 1;
+    overflow-y: auto;
+   }
+   
